@@ -7,7 +7,7 @@ jobs:
   build-and-test:
     executor: python/default
     steps:
-      - checkout
+      - checkouts
       - python/load-cache
       - python/install-deps
       - python/save-cache
